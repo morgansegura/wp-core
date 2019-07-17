@@ -43,6 +43,7 @@ Thumbs.db
 *.exe
 *.o
 *.so
+*-lock.json
 
 # ignore packaged files
 *.7z
