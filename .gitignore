@@ -1,1 +1,94 @@
-*
+# ignore everything in the root except the "wp-content" directory.
+/*
+wp-content/*
+
+# ignore all mu-plugins, plugins, and themes
+# unless explicitly whitelisted at the end of this file
+wp-content/mu-plugins/*
+wp-content/plugins/*
+wp-content/themes/*
+
+# ignore all files starting with . or ~
+.*
+~*
+
+# ignore node dependency directories (used by grunt)
+node_modules/
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*-lock.json
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# -------------------------
+# BEGIN Whitelisted Files
+# -------------------------
+
+# track these files, if they exist
+!.gitignore
+!.editorconfig
+!.phpcs.xml.dist
+!README.md
+!CHANGELOG.md
+!composer.json
+
+# track favicon files, if they exist
+!android-chrome-*.png
+!apple-touch-icon*.png
+!browserconfig.xml
+!favicon*.png
+!favicon*.ico
+!manifest.json
+!mstile-*.png
+!safari-pinned-tab.svg
+!site.webmanifest
+
+# track these core elements
+# add your own entries here
+!wp-admin/
+!wp-includes/
+!wp-content/upgrade/
+!index.php
+!license.txt
+!readme.html
+!setup.md
+!wp-activate.php
+!wp-blog-header.php
+!wp-comments-post.php
+!wp-cron.php
+!wp-links-opml.php
+!wp-load.php
+!wp-login.php
+!wp-mail.php
+!wp-settings.php
+!wp-signup.php
+!wp-trackback.php
+!xmlrpc.php
