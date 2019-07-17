@@ -132,3 +132,4 @@ Thumbs.db
 # track these themes
 # add your own entries here
 !wp-content/themes/twentynineteen/
+wp-content/themes/twentynineteen/package-lock.json
