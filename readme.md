@@ -1,26 +1,14 @@
 # Wordpress Core
 Currently at 5.2.2 (July 2019)
 
-## Theme
+## This repository is to keep Wordpress core current across all site
+
+### Theme
 #### Custom themes will be stored in their own repositories
-* twentynineteen
 
-## Plugins
-#### Default plugins will be stored in this starter repository
-* advanced-custom-fields-pro
-* amp
-* classic-editor
-* fastly
-* glue-for-yoast-seo-amp
-* post-smtp
-* presto-delivery
-* w3-total-cache
-* wordpress-importer
-* wordpress-seo
-* wp-serverinfo
-* wp-smush-pro
-* wpmudev-updates
+### Plugins
+#### All plugins will now be included in specific theme repositoriess
 
-## Must Use Plugins
-#### Default must use plugins will be stored in this starter repository
-Currently none exist
+### Must-Use Plugins
+#### All must-use plugins will now be included in specific theme repositories
+
