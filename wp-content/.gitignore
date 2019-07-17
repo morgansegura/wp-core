@@ -1,13 +1,13 @@
 # ignore everything in the root except the "wp-content" directory.
 /*
-# !wp-content/
+!wp-content/
 
 # ignore everything in the "wp-content" directory, except:
 # mu-plugins, plugins, and themes directories
 wp-content/*
-# !wp-content/mu-plugins/
-# !wp-content/plugins/
-# !wp-content/themes/
+!wp-content/mu-plugins/
+!wp-content/plugins/
+!wp-content/themes/
 
 # ignore all mu-plugins, plugins, and themes
 # unless explicitly whitelisted at the end of this file
@@ -61,6 +61,9 @@ Thumbs.db
 
 # track these files, if they exist
 !.gitignore
+
+# skip these files, if they exist
+wp-content/.gitignore
 !.editorconfig
 !.phpcs.xml.dist
 !README.md
@@ -108,3 +111,28 @@ Thumbs.db
 !wp-signup.php
 !wp-trackback.php
 !xmlrpc.php
+
+# track these mu-plugins
+# add your own entries here
+# wp-content/mu-plugins/*
+
+# track these plugins
+# add your own entries here
+!wp-content/plugins/advanced-custom-fields-pro/
+!wp-content/plugins/amp/
+!wp-content/plugins/classic-editor/
+!wp-content/plugins/fastly/
+!wp-content/plugins/glue-for-yoast-seo-amp/
+!wp-content/plugins/post-smtp/
+!wp-content/plugins/presto-delivery/
+!wp-content/plugins/w3-total-cache/
+!wp-content/plugins/wordpress-importer/
+!wp-content/plugins/wordpress-seo/
+!wp-content/plugins/wp-serverinfo/
+!wp-content/plugins/wp-smush-pro/
+!wp-content/plugins/wpmudev-updates/
+
+# track these themes
+# add your own entries here
+!wp-content/themes/twentynineteen/
+wp-content/themes/twentynineteen/package-lock.json
